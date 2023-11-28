@@ -121,10 +121,6 @@ h1 {
   border: none;
 }
 
-.field::-moz-placeholder {
-  color: #ffffff;
-}
-
 .field::placeholder {
   color: #ffffff;
 }
