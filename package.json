@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "sass": "^1.69.5"
-  }
+  },
+  "name": "home_7",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkaterinaScherbachenya/academy-project-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaScherbachenya/academy-project-1/issues"
+  },
+  "homepage": "https://github.com/EkaterinaScherbachenya/academy-project-1#readme"
 }
