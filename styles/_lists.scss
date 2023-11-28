@@ -1,0 +1,55 @@
+// *--------------------------Section HEADER-----------------------------
+
+.list {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    padding: 1rem;
+  }
+}
+
+// *--------------------------Section DELIVERY-----------------------------
+
+.section-delivery ul{
+  padding: 0;
+}
+
+.list_delivery{
+  display: inline-block;
+
+  list-style: none;
+  text-align: center;
+  color: $black;
+  
+  margin: 2rem;
+}
+
+// *--------------------------Section OUR PRODUCTS-------------------------
+
+.section-ourproducts ul{
+  padding: 0;
+}
+
+.list_products {
+  display: inline-block;
+
+  width: 22%;
+  margin: 1rem;
+  line-height: 0;
+
+  cursor: pointer;
+  
+  .img_product {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+}
+
+.list_products:hover {
+  box-shadow: 0 6px 5px $shadow;
+  transition: all 0.5s;
+}

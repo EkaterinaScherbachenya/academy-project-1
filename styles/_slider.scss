@@ -1,0 +1,40 @@
+// *--------------------------Section ADD/REv Products-----------
+
+.swiper img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.addproducts,
+.revproducts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product {
+  position: relative;
+
+  width: calc(100% / 4);
+  margin: 1rem;
+  padding: 2rem 0.5rem ;
+
+  background-color: $white-darken;
+  border-radius: 1rem;
+  color: $link-hover;
+
+  cursor: pointer;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+ {
+  color: $link-hover;
+}
+
